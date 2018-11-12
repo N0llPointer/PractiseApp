@@ -3,10 +3,10 @@ package app;
 import java.util.List;
 
 public class Question {
-    String question;
-    List<String> answers;
-    int rightAnswer;
-    boolean isSingle;
+    private String question;
+    private List<String> answers;
+    private int rightAnswer;
+    private boolean isSingle;
 
     public Question(String question, List<String> answers, int rightAnswer, boolean isSingle) {
         this.question = question;
