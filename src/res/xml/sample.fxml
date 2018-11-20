@@ -37,5 +37,11 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </GridPane.margin>
       </Button>
+      <Label id="hash_label" alignment="TOP_LEFT" text="Label" GridPane.halignment="LEFT" GridPane.valignment="TOP" />
+      <Label id="number_label" text="Label" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </GridPane>

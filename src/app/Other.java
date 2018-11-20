@@ -36,6 +36,52 @@ public class Other {
         questions.add(new Question("Принцип архитектуры “клиент-сервер”: ", answers, 3, true));
 
 
+        answers = new ArrayList<>();
+        answers.add("сети с одним выделенным сервером");
+        answers.add("сети с одним и более выделенными серверами");
+        answers.add("сети, где все компьютеры равноправны");
+        questions.add(new Question("Одноранговые сети – это: ", answers, 3, true));
+
+        answers = new ArrayList<>();
+        answers.add("точка-точка");
+        answers.add("вещание (от одного ко многим);");
+        answers.add("передача");
+        questions.add(new Question("Технологии передачи данных, используемые в сетях: ", answers, 2, true));
+
+
+        answers = new ArrayList<>();
+        answers.add("локальные сети, имеющие выход в глобальную сеть Internet");
+        answers.add("локальные сети, не имеющие выход в глобальную сеть Internet и функционирующие без выделенного сервера");
+        answers.add("сети, которые используются сравнительно небольшой группой сотрудников, работающих в одном отделе предприятия");
+        questions.add(new Question("Сети отделов – это", answers, 3, true));
+
+
+        answers = new ArrayList<>();
+        answers.add("данные передаются одновременно по нескольким проводам");
+        answers.add("данные передаются поочередно бит за битом");
+        questions.add(new Question("Что означает параллельная передача данных? ", answers, 3, true));
+
+
+
+
+        answers = new ArrayList<>();
+        answers.add("шинно-кольцевая");
+        answers.add("шинно-звездообразная");
+        answers.add("звездообразно-кольцевая");
+        questions.add(new Question("Какая из тополгоий не относится к смешанным?  ", answers, 2, true));
+
+
+        answers = new ArrayList<>();
+        answers.add("Switch");
+        answers.add("Router");
+        answers.add("Hub");
+        questions.add(new Question("Другое название концентратора: ", answers, 3, true));
+
+
+
+
+
+
         return questions;
     }
 }
